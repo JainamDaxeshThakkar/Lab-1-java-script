@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Silly Story Generator</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <div>
+        <label for="customName">Enter custom name:</label>
+        <input id="customName" type="text" placeholder="NAME" />
+    </div>
+
+    <div>
+        <label>
+            <input id="imperial" type="radio" name="units" value="imperial" checked/>
+            Imperial
+        </label>
+
+        <label>
+            <input id="metric" type="radio" name="units" value="metric"/>
+            Metric
+        </label>
+    </div>
+
+    <div>
+        <button class="randomize">Generate random story</button>
+    </div>
+
+    <p class="story"></p>
+
+    <!-- This lab is based on the excellent assessment challenge at https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Silly_story_generator -->
+    <script src="./js/silly-story.js"></script>
+</body>
+</html>

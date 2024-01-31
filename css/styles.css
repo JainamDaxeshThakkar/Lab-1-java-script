@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+p {
+    background-color: #ff3700;
+    color: #5e2612;
+    padding: 10px;
+    visibility: hidden;
+    margin-top: 10px;
+}
